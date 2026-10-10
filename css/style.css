@@ -160,6 +160,12 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   background-color: white;
+  width: 173px;
+  height: 50px;
+}
+
+.filters button:hover {
+  background-color: var(--filter-bg-color);
 }
 
 .informations {
@@ -169,8 +175,8 @@ input::placeholder {
 }
 
 .info-icon {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border: 1px solid #d9d9d9;
   align-items: center;
   display: flex;
@@ -334,11 +340,6 @@ input::placeholder {
   margin-bottom: 5px;
 }
 
-.section-title {
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
 .activities .section-title {
   margin-left: 30px;
 }
@@ -347,8 +348,12 @@ input::placeholder {
   max-width: 1280px;
   width: 100%;
   margin-bottom: 60px;
+  margin-top: 60px;
 }
-
+.section-title-activities {
+  margin-bottom: 30px;
+  padding-left: 25px;
+}
 .activities-cards {
   display: flex;
   gap: 30px;
@@ -507,30 +512,64 @@ input::placeholder {
   }
 
   nav img {
-  transform: none;
-  margin-bottom: 20px;
-}
+    transform: none;
+    margin-bottom: 20px;
+  }
 
-.btn-search i {
+  .btn-search i {
     display: block;
     color: white;
   }
 
-.search-text {
+  .search-text {
     display: none;
   }
-.location {
-  width: 50px;
-  height: 49px;
-  flex-shrink: 0;
-}
-   .location i {
+  .location {
+    width: 50px;
+    height: 49px;
+    flex-shrink: 0;
+  }
+  .location i {
     font-size: 18px;
   }
 
   .filters {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .filters button {
+    width: calc(50% - 5px);
+    height: 50px;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
     gap: 15px;
+  }
+
+  .hebergements-cards {
+    flex-direction: column;
+  }
+  .populaires-cards {
+    flex-direction: column;
+    width: 375px;
+    height: 569px;
+  }
+.article-card{
+  width: 335px;
+  height: 146px;
+}
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .activities-cards {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 315px;
+    height: 815px;
   }
 }
