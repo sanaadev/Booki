@@ -214,6 +214,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 65%;
 }
 
 .hebergements-cards {
@@ -242,6 +243,7 @@ input::placeholder {
   box-sizing: border-box;
   padding: 0;
 }
+
 .hebergements-cards .card-content {
   height: 64.25px;
   padding: 0 15px;
@@ -265,15 +267,18 @@ input::placeholder {
   font-family: raleway;
   margin: 0;
 }
+
 .hebergements-cards .card-rating {
   padding-top: 3px;
   padding-bottom: 0;
 }
+
 .euro {
   font-size: 14px;
   font-weight: 700;
   font-family: raleway;
 }
+
 .show-more {
   font-size: 18px;
   font-weight: 700;
@@ -296,7 +301,6 @@ input::placeholder {
   object-fit: cover;
 }
 
-
 .neutral-star {
   color: var(--main-bg-color);
 }
@@ -313,11 +317,6 @@ input::placeholder {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
-}
-
-/****** Hebergements ***********/
-.hebergements {
-  width: 65%;
 }
 
 /****** Populaires ***********/
@@ -764,4 +763,5 @@ input::placeholder {
     display: flex;
     gap: 15px;
   }
+  
 }
