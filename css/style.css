@@ -22,7 +22,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-  min-height: 1889.02px;
+  
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -32,14 +32,16 @@ body {
   display: block;
   height: 60px;
   background-color: #f2f2f2;
+  width: calc(100% + 100px);
   margin-left: -50px;
-  margin-right: -50px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-list {
   display: flex;
   gap: 68px;
@@ -66,7 +68,7 @@ a {
   height: 35px;
 }
 
-.active {
+.nav-link:hover {
   color: var(--main-color);
   border-top: 2px solid var(--main-color);
 }
@@ -168,7 +170,26 @@ input::placeholder {
   align-items: center;
   justify-content: flex-start;
   background-color: white;
-  width: 173px;
+  
+}
+
+.btn-economy {
+   width: 173px;
+  height: 50px;
+}
+
+.btn-family{
+  width: 134px;
+  height: 50px;
+}
+
+.btn-romantic {
+  width: 170px;
+  height: 50px;
+}
+
+.btn-gems{
+  width: 167px;
   height: 50px;
 }
 
@@ -200,7 +221,7 @@ input::placeholder {
 }
 
 .info-icon i {
-  transform: translateY(-1px);
+    font-size: 10px;
 }
 
 .informations p {
@@ -268,10 +289,6 @@ input::placeholder {
   margin: 0;
 }
 
-.hebergements-cards .card-rating {
-  padding-top: 3px;
-  padding-bottom: 0;
-}
 
 .euro {
   font-size: 14px;
@@ -412,6 +429,8 @@ input::placeholder {
   width: 100%;
   max-width: 1340px;
   background-color: #f2f2f2;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 .footer-content a {
   font-size: 16px;
@@ -757,11 +776,9 @@ input::placeholder {
   .footer-content {
     flex-direction: column;
     background-color: #f2f2f2;
-    margin-left: -20px;
-    margin-right: -20px;
     white-space: nowrap;
     display: flex;
     gap: 15px;
   }
-  
+
 }
