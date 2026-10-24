@@ -170,6 +170,7 @@ input::placeholder {
   align-items: center;
   justify-content: flex-start;
   background-color: white;
+  font-weight: 700;
   
 }
 
