@@ -113,7 +113,7 @@ form {
 }
 
 #search-city {
-  font-family: Raleway;
+  
   font-weight: 700;
   font-size: 18px;
   color: black;
@@ -146,7 +146,6 @@ input::placeholder {
 
 .search-text {
   font-size: 18px;
-  font-family: Raleway;
   font-weight: 700;
 }
 
@@ -226,7 +225,6 @@ input::placeholder {
 .informations p {
   font-weight: 400;
   font-size: 16px;
-  font-family: raleway;
   margin: 0;
 }
 
@@ -284,20 +282,18 @@ input::placeholder {
 .card-subtitle {
   font-size: 14px;
   font-weight: 400;
-  font-family: raleway;
   margin: 0;
 }
 
 .euro {
   font-size: 14px;
   font-weight: 700;
-  font-family: raleway;
-}
+  }
 
 .show-more {
   font-size: 18px;
   font-weight: 700;
-  font-family: raleway;
+  width: 100%;
 }
 
 .section-title {
