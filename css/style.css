@@ -26,14 +26,7 @@ body {
   box-sizing: border-box;
 }
 
-.main-container::after {
-  content: "";
-  display: block;
-  height: 60px;
-  background-color: #f2f2f2;
-  width: calc(100% + 100px);
-  margin-left: -50px;
-}
+
 
 nav {
   display: flex;
@@ -431,7 +424,10 @@ h3.activity-title {
   display: flex;
   width: 100%;
   background-color: #f2f2f2;
+  padding-bottom: 5px;
+
 }
+
 .footer-content a {
   font-size: 16px;
   font-weight: 400;
@@ -472,10 +468,7 @@ h3.activity-title {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  .main-container::after {
-    display: none;
-  }
-
+  
   .filters {
     display: flex;
     flex-wrap: wrap;
