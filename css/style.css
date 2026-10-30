@@ -56,6 +56,7 @@ a {
   display: flex;
   align-items: center;
   height: 35px;
+  border-top: 2px solid transparent;
 }
 
 .nav-link:hover {
@@ -584,7 +585,7 @@ h3.activity-title {
   .nav-link:hover {
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
-    border-top: none;
+    border-top: 2px solid transparent;
   }
 
   nav img {
