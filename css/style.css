@@ -235,7 +235,7 @@ input::placeholder {
 
 .hebergements-cards .card {
   width: 100%;
-  height: 207.25px;
+  height: 100%;
   display: flex;
   gap: 4px;
   padding-bottom: 15px;
@@ -257,7 +257,6 @@ input::placeholder {
 }
 
 .hebergements-cards .card-content {
-  height: 64.25px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
