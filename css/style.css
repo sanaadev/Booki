@@ -26,7 +26,7 @@ body {
   box-sizing: border-box;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,10 +38,8 @@ nav {
   list-style: none;
   margin: 0;
 }
-.nav-item {
-  text-decoration: none;
-}
-nav img {
+
+.img-logo {
   width: 61px;
   height: 19px;
   transform: translateY(20px);
@@ -530,7 +528,7 @@ a {
     padding-right: 20px;
   }
 
-  nav {
+  .navbar {
     flex-direction: column;
     margin-top: 20px;
   }
@@ -559,7 +557,7 @@ a {
     border-top: 2px solid transparent;
   }
 
-  nav img {
+  .img-logo {
     transform: none;
     margin-bottom: 30px;
     margin-top: 10px;
