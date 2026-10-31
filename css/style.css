@@ -160,27 +160,9 @@ input::placeholder {
   justify-content: flex-start;
   background-color: white;
   font-weight: 700;
-}
-
-.btn-economy {
- 
   height: 50px;
 }
 
-.btn-family {
- 
-  height: 50px;
-}
-
-.btn-romantic {
- 
-  height: 50px;
-}
-
-.btn-gems {
-  
-  height: 50px;
-}
 
 .filters button i {
   width: 22px;
@@ -267,7 +249,6 @@ input::placeholder {
 .card-title {
   font-size: 16px;
   font-weight: 700;
-  font-family: raleway;
   margin: 0;
   padding-top: 2px;
   padding-bottom: 8px;
@@ -375,7 +356,6 @@ input::placeholder {
 
 .activities {
   width: 100%;
-
   margin-bottom: 60px;
   margin-top: 60px;
 }
@@ -414,12 +394,10 @@ input::placeholder {
 .activity-title {
   margin: 0;
   padding: 20px 15px;
-}
-
-h3.activity-title {
   white-space: nowrap;
   font-size: 16px;
 }
+
 
 .footer-content {
   display: flex;
@@ -524,12 +502,7 @@ h3.activity-title {
     max-width: 924px;
   }
 
-  h3.activity-title {
-    white-space: normal;
-    font-size: 16px;
-  }
-
-  .activities-cards > a {
+    .activities-cards > a {
     width: 193.5px;
   }
   .activity-card img {
@@ -540,13 +513,12 @@ h3.activity-title {
   }
   .activity-title {
     height: 70px;
-    margin: 0;
     padding: 0 15px;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    font-size: 16px;
     font-weight: 700;
+    white-space: normal;
   }
 }
 
