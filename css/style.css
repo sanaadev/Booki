@@ -89,7 +89,7 @@ a {
   margin: 0;
 }
 
-form {
+.search-form {
   display: flex;
 }
 
